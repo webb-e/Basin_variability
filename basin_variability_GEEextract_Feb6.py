@@ -2,8 +2,6 @@
 # -*- coding: utf-8 -*-
 """
 Created in 2024 by ericlevenson, updated by E. Webb in Jan 2026
-Fixed: robust .toList usage, robust consumer for aggregate_array('output').getInfo(),
-removed invalid .toNumber() and ensured list->number extraction for scalars.
 """
 import ee
 import logging
